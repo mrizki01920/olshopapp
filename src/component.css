@@ -1,0 +1,74 @@
+/* src/component.css */
+
+/* Menambahkan margin di seluruh body */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* Style untuk header */
+header {
+  background-color: #1976d2; /* Warna utama dari MUI */
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Styling tombol yang berbeda */
+.MuiButton-root {
+  margin-top: 10px;
+}
+
+/* Styling gambar produk pada halaman Home dan Detail */
+.MuiCardMedia-root {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Untuk kartu produk di Home.js */
+.MuiCard-root {
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+/* Styling untuk link di dalam kartu produk */
+.MuiTypography-root a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.MuiTypography-root a:hover {
+  text-decoration: underline;
+}
+
+/* Membuat margin lebih besar di grid Home.js */
+.MuiGrid-container {
+  margin-top: 20px;
+}
+
+/* Styling untuk text yang lebih kecil */
+.MuiTypography-body2 {
+  font-size: 0.875rem;
+  color: gray;
+}
+
+/* Menambah padding pada halaman Checkout dan Cart */
+.checkout-cart-container {
+  padding: 20px;
+}
+
+/* Card keranjang belanja */
+.MuiCardContent-root {
+  padding: 16px;
+}
+
+.MuiTypography-h6 {
+  font-weight: bold;
+}
