@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/olshopapp/static/css/main.e6c13ad2.css",
+    "main.js": "/olshopapp/static/js/main.738aaf28.js",
+    "static/js/453.5c4d87b4.chunk.js": "/olshopapp/static/js/453.5c4d87b4.chunk.js",
+    "index.html": "/olshopapp/index.html",
+    "main.e6c13ad2.css.map": "/olshopapp/static/css/main.e6c13ad2.css.map",
+    "main.738aaf28.js.map": "/olshopapp/static/js/main.738aaf28.js.map",
+    "453.5c4d87b4.chunk.js.map": "/olshopapp/static/js/453.5c4d87b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.738aaf28.js"
+  ]
+}
